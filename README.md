@@ -2,6 +2,7 @@
 
 #滚动条产生查询
 # 控制台粘贴以下代码
+```
 function findScroller(element) {
     element.onscroll = function() { console.log(element)}
 
@@ -9,3 +10,5 @@ function findScroller(element) {
 }
 
 findScroller(document.body);
+```
+
